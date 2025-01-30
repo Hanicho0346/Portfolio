@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import rightarrow from "../../public/assets/right-arrow.png";
+import arrow from "../../public/assets/arrow.jpg";
 import { motion } from "framer-motion";
 import rightarrowwhite from "../../public/assets/arrow-right.png"
 const Contact = ({isDarkMode}) => {
@@ -141,7 +142,7 @@ const Contact = ({isDarkMode}) => {
           ) : (
             <>
               Submit now
-              <Image src={rightarrowwhite} alt="Arrow" className="w-4" />
+              <Image src={arrow} alt="Arrow" className="w-4" />
             </>
           )}
         </motion.button>
