@@ -12,6 +12,7 @@ import vscode from "./vscode.png";
 import mongodb from "./mongodb.jpg";
 import figma from "./figma.png";
 import git from "./git.png";
+import gira from './code.png'
 import work1 from "./movieb.jpg"
 import work2 from "./music.jpg"
 import work3 from "./finance.jpg"
@@ -22,7 +23,7 @@ export const infoList = [
         icon: codeIcon,
         iconDark: codeIconDark,
         title: "Languages",
-        description: "HTML, CSS, JavaScript, React.js, Next.js"
+        description: "HTML, CSS, JavaScript, React.js, Next.js,ReactNative ,Nodejs ,Express,Python"
     },
     {
         icon: eduIcon,
@@ -49,8 +50,8 @@ export const toolsData = [
         icon: mongodb
     },
     {
-        name: "Figma",
-        icon: figma
+        name: "JIRA",
+        icon: gira 
     },
     {
         name: "Git",
@@ -66,17 +67,6 @@ export const ServiceData = [
         description: "Building responsive and modern web applications using cutting-edge technologies.",
         link: "#"
     },
-    {
-        icon: uiIcon,
-        title: "UI/UX Design",
-        description: "Creating visually appealing and user-friendly interfaces with a seamless user experience.",
-        link: "#"
-    },
-    {
-        icon: tutor,
-        title: "Tutoring",
-        description: " I offer tutoring sessions focused on helping you understand key concepts, solve coding challenges, and build strong programming foundations."
-    }
 ];
 
 // Work Portfolio
