@@ -52,7 +52,7 @@ const Footer = ({ isDarkMode }) => {
               <FaGithub className="w-4 h-4 text-white" />
             </a>
             <a
-              href="#"
+              href="https://www.linkedin.com/in/hana-gebremedhin"
               aria-label="LinkedIn"
               className="w-10 h-10 rounded-full border border-white/10 bg-white/5 flex items-center justify-center hover:bg-teal-500 hover:border-teal-500 hover:-translate-y-1 transition-all duration-200"
             >
